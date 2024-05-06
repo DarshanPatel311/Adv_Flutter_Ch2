@@ -19,20 +19,20 @@ Dialog Box : - A pop-up or modal window that appears over the current screen to 
 
 
 
+
 <p align="center">
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/d25fdff6-b83d-4cb1-a9fd-16160776b979' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/94cefaca-a92c-4bff-a5b2-8404a5b7c94f' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/b13ecb65-4aab-4388-a019-6e3d6f8614a4' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/034c77cf-9a68-486c-a252-84453fc0acb0' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/fa071b4a-7465-484a-a858-e68e2beb53cc' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/e16208b1-2edb-4714-a9bc-b34b0eefd3ee' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/daa7562c-b720-461d-9e15-44c23e193285' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/544a6630-0685-4ed7-b0f8-c1f7f9ebb353' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/d086c6d1-f52b-460c-96b3-8d16ccf6f541' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/f2866940-1c00-4594-bc4d-b5928274bee5' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/e81f1372-6d64-4901-bb5d-8f7c653e8517' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/7c60b827-e6fc-43fb-b42e-d692d6104d4a' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/0f9ce96e-d23d-4757-88c4-4faae1325c34' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/4be24638-1e03-4db5-ae75-1666999a4d53' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+
 
   <div align="center">
     <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_1">👉 📚 Go to dart file 📚 👈</a>
   </div>
 
-  <video src="https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/1cd1769a-1475-4377-9b28-7d42727d893a" ></video>
+  <video src="" ></video>
   
 </p>
