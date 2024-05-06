@@ -15,20 +15,20 @@ InkWell DialogBox(BuildContext context) {
           child: Column(
             children: [
               Divider(),
-              RadioListTile(value: 0, groupValue: Provider.of<PickerProvider>(context,listen: true).dialogsradioindex, onChanged:(value) {
-                Provider.of<PickerProvider>(context,listen: false).changeringtone(value);
+              RadioListTile(value: 0, groupValue: Provider.of<PickerProvider>(context,listen: true).index, onChanged:(value) {
+                Provider.of<PickerProvider>(context,listen: false).changer(value);
 
               },title: Text("None"),),
-              RadioListTile(value: 1, groupValue: Provider.of<PickerProvider>(context,listen: true).dialogsradioindex, onChanged:(value) {
-                Provider.of<PickerProvider>(context,listen: false).changeringtone(value);
+              RadioListTile(value: 1, groupValue: Provider.of<PickerProvider>(context,listen: true).index, onChanged:(value) {
+                Provider.of<PickerProvider>(context,listen: false).changer(value);
 
               },title: Text("Callisto"),),
-              RadioListTile(value: 2, groupValue: Provider.of<PickerProvider>(context,listen: true).dialogsradioindex, onChanged:(value) {
-                Provider.of<PickerProvider>(context,listen: false).changeringtone(value);
+              RadioListTile(value: 2, groupValue: Provider.of<PickerProvider>(context,listen: true).index, onChanged:(value) {
+                Provider.of<PickerProvider>(context,listen: false).changer(value);
 
               },title: Text("Ganymede"),),
-              RadioListTile(value: 3, groupValue: Provider.of<PickerProvider>(context,listen: true).dialogsradioindex, onChanged:(value) {
-                Provider.of<PickerProvider>(context,listen: false).changeringtone(value);
+              RadioListTile(value: 3, groupValue: Provider.of<PickerProvider>(context,listen: true).index, onChanged:(value) {
+                Provider.of<PickerProvider>(context,listen: false).changer(value);
 
               },title: Text("Luna"),),
 

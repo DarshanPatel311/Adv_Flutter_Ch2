@@ -3,9 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
-import '../provider/DatePicer_Provider.dart';
 import 'components/Date_Picker.dart';
 import 'components/DialogBox.dart';
 import 'components/Timer_Picker.dart';

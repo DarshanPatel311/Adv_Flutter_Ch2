@@ -5,11 +5,7 @@ import '2_1_date_picker/provider/DatePicer_Provider.dart';
 import '2_1_date_picker/view/Home_Screen.dart';
 
 void main() {
-  runApp(MultiProvider(providers: [
-    ChangeNotifierProvider(
-      create: (context) => PickerProvider(),
-    )
-  ], child: MyApp()));
+  runApp( const MyApp());
 }
 
 class MyApp extends StatelessWidget {
