@@ -1,6 +1,6 @@
 # Advance Flutter Chapter 2
 
-<h3 align="center">🔥 Date Picker, Time Picker, Dialog Box using Material & Cupertino. 🔥</h3>
+<h3 align="center">📱 Date Picker, Time Picker, Dialog Box using Material & Cupertino. 📱</h3>
 
 #
 
