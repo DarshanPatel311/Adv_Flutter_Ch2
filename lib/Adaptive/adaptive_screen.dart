@@ -4,12 +4,19 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../2_2_Cupertino_Widgets/view/Material_Screen.dart';
+import '../2_2_Cupertino_Widgets/view/Material/Material_Screen.dart';
 
 class Adaptive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
    return Provider.of<FlutterProvider>(context, listen: true).istrue?MaterialApp(
+
+     theme: ThemeData(
+
+       dialogBackgroundColor: Color(0xffE8DFCA),
+
+
+     ),
      home: MaterialScreen(),
    ):CupertinoApp(
      home: CupertinoScreen(),
