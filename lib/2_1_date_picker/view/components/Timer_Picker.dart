@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 InkWell iosTimer(BuildContext context) {
   return InkWell(
     onTap: () {
@@ -25,7 +24,6 @@ InkWell iosTimer(BuildContext context) {
     ),
   );
 }
-
 InkWell Timer(BuildContext context) {
   return InkWell(
     onTap: () {

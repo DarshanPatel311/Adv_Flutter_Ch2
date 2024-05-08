@@ -1,19 +1,13 @@
 import 'dart:core';
 import 'dart:ui';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'components/Date_Picker.dart';
 import 'components/DialogBox.dart';
 import 'components/Timer_Picker.dart';
 import 'components/ios_Action.dart';
-
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
-  get value => null;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,22 +32,10 @@ class HomeScreen extends StatelessWidget {
             SizedBox(height: 20,),
             DialogBox(context),
             SizedBox(height: 20,),
-
             iosActionSheet(context),
-
-
-
           ],
         ),
       ),
     );
   }
-
-
-
-
-
-
-
-
 }
