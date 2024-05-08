@@ -37,7 +37,7 @@ Dialog Box : - A pop-up or modal window that appears over the current screen to 
   <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/64bac01d-5fe9-4450-ba78-6377312b6623" ></video>
     </div>
   <div align="center">
-    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_1_date_picker">👉 📚 Go to dart file 📚 👈</a>
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_1_date_picker">👉 📱 Go to dart file 📱 👈</a>
   </div>
   
 </p>
@@ -62,7 +62,7 @@ Features
   <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/5f86cd4f-dd2a-4122-85a6-e84cd429afff' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
 
   <div align="center">
-    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_2_Cupertino_Widgets/view/Cupertino">👉 📚 Go to dart file 📚 👈</a>
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_2_Cupertino_Widgets/view/Cupertino">👉 📱 Go to dart file 📱 👈</a>
   </div>
 </p>
 
@@ -76,7 +76,7 @@ Features
  
 
   <div align="center">
-    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_2_Cupertino_Widgets/view/Material">👉 📚 Go to dart file 📚 👈</a>
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_2_Cupertino_Widgets/view/Material">👉 📱 Go to dart file 📱 👈</a>
   </div>
 
 
