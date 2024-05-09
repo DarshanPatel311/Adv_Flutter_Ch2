@@ -10,16 +10,16 @@ class Adaptive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
    return Provider.of<FlutterProvider>(context, listen: true).istrue?MaterialApp(
-
+     debugShowCheckedModeBanner: false, 
      theme: ThemeData(
-
        dialogBackgroundColor: Color(0xffE8DFCA),
-
-
      ),
      home: MaterialScreen(),
    ):CupertinoApp(
-     home: CupertinoScreen(),
+     debugShowCheckedModeBanner: false,
+     home: CupertinoScreen(
+
+     ),
    );
   }
   
