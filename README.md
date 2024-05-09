@@ -107,9 +107,12 @@ Automatically adapts its appearance based on the platform (iOS or Android) when 
 Offers properties like onTap, isThreeLine, dense, etc., for customization based on design needs.
 
 
+
 <img src = "https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/3b30aeff-3932-4ec1-905b-532b413a59df" width=22% height=35%>
 <img src = "https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/4695f1f5-72b2-4b5f-a75d-794a921edb5c" width=22% height=35%>
-
-  
+<img src = "https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/e833334e-f42d-4484-be42-a10529426dd0" width=22% height=35%>
+    <div align="center">
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_3_CupertinoSliverNavigationBar/view">👉 📱 Go to dart file 📱 👈</a>
+  </div>
 
 </p>
