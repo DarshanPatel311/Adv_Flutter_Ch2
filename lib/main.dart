@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 import '2_2_Cupertino_Widgets/view/Cupertino/Cupertino_Screen.dart';
 import '2_2_Cupertino_Widgets/view/Material/Material_Screen.dart';
 import '2_3_CupertinoSliverNavigationBar/view/cupertino_list_section.dart';
+import '2_3_CupertinoSliverNavigationBar/view/cupertino_list_section2.dart';
 import 'Adaptive/adaptive_screen.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: ListSection(),
+      home: CuperScreen(),
     );
   }
 }

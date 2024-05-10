@@ -18,27 +18,27 @@ class ListSection extends StatelessWidget {
                 children: <CupertinoListTile> [
                   CupertinoListTile.notched(
                     title: Text('General',style: TextStyle(fontWeight: FontWeight.bold),),
-                    leading: Icon(CupertinoIcons.settings),
+                    leading: Image.asset('assets/img/image1.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                   CupertinoListTile.notched(
                     title: Text('Display & Brightness',style: TextStyle(fontWeight: FontWeight.bold),),
-                    leading: Icon(CupertinoIcons.text_cursor),
+                    leading: Image.asset('assets/img/star.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                   CupertinoListTile.notched(
                     title: Text('Wallpaper',style: TextStyle(fontWeight: FontWeight.bold),),
-                    leading: Icon(CupertinoIcons.photo),
+                    leading: Image.asset('assets/img/walpaper.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                   CupertinoListTile.notched(
                     title: Text('Sounds',style: TextStyle(fontWeight: FontWeight.bold),),
-                    leading: Icon(CupertinoIcons.speaker_2),
+                    leading: Image.asset('assets/img/sound.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                   CupertinoListTile.notched(
                     title: Text('Privacy',style: TextStyle(fontWeight: FontWeight.bold),),
-                    leading: Icon(CupertinoIcons.hand_raised),
+                    leading: Image.asset('assets/img/hand.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                 ],
@@ -48,17 +48,17 @@ class ListSection extends StatelessWidget {
                   CupertinoListTile.notched(
                     title: Text('iCloud',style: TextStyle(fontWeight: FontWeight.bold),),
                     subtitle: Text('dkpatel311@gmail.com'),
-                    leading: Icon(CupertinoIcons.cloud),
+                    leading: Image.asset('assets/img/icloud.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                   CupertinoListTile.notched(
                     title: Text('iTunes & App Store',style: TextStyle(fontWeight: FontWeight.bold),),
-                    leading: Icon(CupertinoIcons.textformat),
+                    leading: Image.asset('assets/img/appstore.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                   CupertinoListTile.notched(
                     title: Text('Password & Apple Pay',style: TextStyle(fontWeight: FontWeight.bold),),
-                    leading: Icon(CupertinoIcons.book),
+                    leading: Image.asset('assets/img/fingerprint.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                 ],
@@ -67,17 +67,17 @@ class ListSection extends StatelessWidget {
                 children: <CupertinoListTile> [
                   CupertinoListTile.notched(
                     title: Text('Mail,Contacts,Calendars',style: TextStyle(fontWeight: FontWeight.bold),),
-                    leading: Icon(CupertinoIcons.mail),
+                    leading: Image.asset('assets/img/mail.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                   CupertinoListTile.notched(
                     title: Text('Notes',style: TextStyle(fontWeight: FontWeight.bold),),
-                    leading: Icon(CupertinoIcons.text_append),
+                    leading: Image.asset('assets/img/note.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                   CupertinoListTile.notched(
                     title: Text('Reminders',style: TextStyle(fontWeight: FontWeight.bold),),
-                    leading: Icon(CupertinoIcons.book),
+                    leading: Image.asset('assets/img/reminder.jpeg'),
                     trailing: CupertinoListTileChevron(),
                   ),
                 ],
