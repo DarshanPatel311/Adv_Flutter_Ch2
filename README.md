@@ -80,6 +80,45 @@ Features
   </div>
 
 
-  <video src=''></video>
+ 
 </p>
+<h1><b>1.CupertinoSliverNavigationBar:-</b></h1>
+Description: This widget is part of the Cupertino library in Flutter and is used specifically for implementing a navigation bar within a CustomScrollView. It is similar to the traditional SliverAppBar but designed with Cupertino-style aesthetics.
+<h1><b>Key Features:-</b></h1>
 
+Typically used in conjunction with a CustomScrollView to create scrolling navigation bars.
+
+
+Provides options for leading and trailing widgets, similar to a traditional AppBar.
+
+Supports title text and background colors that blend seamlessly with iOS designs.
+
+Can be configured with various properties such as largeTitle, automaticallyImplyLeading, border, etc., to customize its appearance and behavior.
+
+<h1><b>2.CupertinoListTile:-</b></h1>
+Description: This widget is part of the Cupertino library and is used to create list items in iOS-style lists. It's similar to the ListTile widget in Material Design but styled according to iOS guidelines.
+<h1><b>Key Features:-</b></h1>
+
+Used within ListView or List widgets to create individual items in a list.
+
+Supports leading and trailing icons or widgets, along with a title and subtitle.
+
+Automatically adapts its appearance based on the platform (iOS or Android) when used in a platform-aware widget like CupertinoList.
+
+Offers properties like onTap, isThreeLine, dense, etc., for customization based on design needs.
+
+
+
+<img src = "https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/3b30aeff-3932-4ec1-905b-532b413a59df" width=22% height=35%>
+<img src = "https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/4695f1f5-72b2-4b5f-a75d-794a921edb5c" width=22% height=35%>
+<img src = "https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/e833334e-f42d-4484-be42-a10529426dd0" width=22% height=35%>
+ <div align="center">
+    
+  <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/9dd670f9-05e2-44da-9412-0aac82d3768e" ></video>
+    </div>
+  <div align="center">
+     
+  <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_3_CupertinoSliverNavigationBar/view">👉 📱 Go to dart file 📱 👈</a>
+  </div>
+
+</p>
