@@ -184,6 +184,19 @@ Overall, `CupertinoSlidingSegmentedControl` is a useful widget for creating segm
 <img src = "" width=22% height=35%>
 
 
+CupertinoContextMenu
+* The CupertinoContextMenu widget in Flutter provides a full-screen modal overlay that appears when the user long-presses on an item. This widget is used to display contextual actions for an item, similar to a context menu in desktop applications or the long-press context menu in iOS.
 
+Key Features:
+<h5>
+
+
+* Child: The widget that triggers the context menu when long-pressed.
+* Actions: A list of contextual actions to display.</h5>
+
+<p>
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/2fb7d27b-1bad-4f07-bbce-5540c896ff6d' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  
+</p>
 
 
