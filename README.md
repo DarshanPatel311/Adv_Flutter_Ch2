@@ -180,8 +180,20 @@ Key features and characteristics of `CupertinoSlidingSegmentedControl` include:
 5. **Mutually Exclusive:** By default, only one segment can be selected at a time, making it suitable for scenarios where users need to choose a single option from a list of choices.
 
 Overall, `CupertinoSlidingSegmentedControl` is a useful widget for creating segmented controls with a modern iOS look and feel, enhancing the user experience in Flutter apps targeting iOS devices.
+<h1> CupertinoActionSheet</h1>
+* The CupertinoActionSheet widget in Flutter is used to present a modal action sheet, which typically slides up from the bottom of the screen. It provides a way to offer users a set of choices related to the current context. Action sheets are commonly used in iOS apps for user actions that need to be confirmed or for presenting multiple options.
 
-<img src = "" width=22% height=35%>
+Key Features:
+<h5>
+
+* Title: Optional title for the action sheet.
+* Message: Optional message providing additional information about the choices.
+* Actions: A list of actions (buttons) that the user can choose from.
+* Cancel Button: An optional button to dismiss the action sheet without making a choice.</h5>
+<p>
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/33966735-a557-4131-953f-1f970f9afb85' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+</p>
 
 
 
