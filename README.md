@@ -194,6 +194,25 @@ Key Features:
   <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/33966735-a557-4131-953f-1f970f9afb85' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
  
 </p>
+<div align="center">
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_5_Cupertino_Action_Sheet/view">👉 📱 Go to dart file 📱 👈</a>
+</div>
+<h1> CupertinoContextMenu</h1>
+* The CupertinoContextMenu widget in Flutter provides a full-screen modal overlay that appears when the user long-presses on an item. This widget is used to display contextual actions for an item, similar to a context menu in desktop applications or the long-press context menu in iOS.
+
+Key Features:
+<h5>
+
+* Child: The widget that triggers the context menu when long-pressed.
+* Actions: A list of contextual actions to display.</h5>
+
+
+<p>
+ <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/963b65dc-ce75-45fa-b80d-ef766ba19679' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+
+</p>
+ <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/ac53555f-cabd-4d65-a048-de030ba4b141" width =300>
+
 
 
 
