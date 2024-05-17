@@ -212,8 +212,7 @@ Key Features:
 </p>
  <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/ac53555f-cabd-4d65-a048-de030ba4b141" width =300>
 
-   
-<h2 align="center"> 📱2.7 Date Picker (Android & iOS) 📱 </h2>
+   <h2> 📱2.7 Date Picker (Android & iOS) 📱 </h2>
 Material Design Date Picker (Android)
 * The Material design date picker is used for Android and follows Google's Material Design guidelines. This is implemented using the `showDatePicker` function in Flutter.
 <p>
@@ -227,6 +226,5 @@ Cupertino Date Picker (iOS)
 <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_7_date_picker">👉 📱 Go to dart file 📱 👈</a>
 </div>
-
 
 
