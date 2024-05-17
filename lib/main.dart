@@ -1,6 +1,7 @@
 import 'package:adv_flutter_ch2/2_1_date_picker/provider/DatePicer_Provider.dart';
 import 'package:adv_flutter_ch2/2_2_Cupertino_Widgets/provider/flutter_provider.dart';
 import 'package:adv_flutter_ch2/2_3_CupertinoSliverNavigationBar/view/Cupertino_Screen.dart';
+import 'package:adv_flutter_ch2/2_7_date_picker/provider/DateProvider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -16,7 +17,11 @@ import 'Adaptive/adaptive_screen.dart';
 
 void main() {
   runApp(
-    MyApp(),
+    MultiProvider(providers: [
+      ChangeNotifierProvider(create: (context) => DateProvider(),),
+    ],child: MyApp(),),
+
+
   );
 }
 

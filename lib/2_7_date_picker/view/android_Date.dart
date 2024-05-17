@@ -1,15 +1,10 @@
-import 'package:adv_flutter_ch2/2_2_Cupertino_Widgets/view/Material/components/Date_picker.dart';
+import 'package:adv_flutter_ch2/2_7_date_picker/provider/DateProvider.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-class AndroidDate extends StatefulWidget {
+class AndroidDate extends StatelessWidget {
   const AndroidDate({super.key});
 
-  @override
-  State<AndroidDate> createState() => _AndroidDateState();
-}
-DateTime time=DateTime.now();
-
-class _AndroidDateState extends State<AndroidDate> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,18 +13,24 @@ class _AndroidDateState extends State<AndroidDate> {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-
-
-            TextButton(onPressed: () {
-              showDatePicker(
-
-
-
-                  context: context, firstDate: DateTime(2000), lastDate: time);
-
-            }, child: Text("Date")),
-            Text("${time.year}/${time.month}/${time.day}")
+            TextButton(
+                onPressed: () {
+                  showDatePicker(
+                          context: context,
+                          initialDate: DateTime.now(),
+                          firstDate: DateTime(2000),
+                          lastDate: DateTime(2025))
+                      .then((value) {
+                    Provider.of<DateProvider>(context, listen: false).DatePicker(value);
+                  });
+                },
+                child: Text("Date")),
+            Text("${Provider.of<DateProvider>(context).time}",style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold
+            ),)
           ],
         ),
       ),
