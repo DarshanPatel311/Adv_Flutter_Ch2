@@ -10,6 +10,8 @@ import '2_3_CupertinoSliverNavigationBar/view/cupertino_list_section.dart';
 import '2_3_CupertinoSliverNavigationBar/view/cupertino_list_section2.dart';
 import '2_4_Cupertino_TabBar/view/bottem_teb.dart';
 import '2_5_Cupertino_Action_Sheet/view/cupertino_sheet.dart';
+import '2_7_date_picker/view/android_Date.dart';
+import '2_7_date_picker/view/iso_date.dart';
 import 'Adaptive/adaptive_screen.dart';
 
 void main() {
@@ -23,10 +25,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CupertinoAction(),
+      home: AndroidDate(),
     );
   }
 }
 
+// CupertinoDatePicker(
+// initialDateTime: time,
+// mode: CupertinoDatePickerMode.time,
+// use24hFormat: true,
+// // This is called when the user changes the time.
+// onDateTimeChanged: (DateTime newTime) {
+// setState(() => time = newTime);
+// },
