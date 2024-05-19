@@ -197,34 +197,51 @@ Key Features:
 <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_5_Cupertino_Action_Sheet/view">👉 📱 Go to dart file 📱 👈</a>
 </div>
-<h1> CupertinoContextMenu</h1>
-* The CupertinoContextMenu widget in Flutter provides a full-screen modal overlay that appears when the user long-presses on an item. This widget is used to display contextual actions for an item, similar to a context menu in desktop applications or the long-press context menu in iOS.
 
-Key Features:
-<h5>
-
-* Child: The widget that triggers the context menu when long-pressed.
-* Actions: A list of contextual actions to display.</h5>
-
-
-<p>
- <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/963b65dc-ce75-45fa-b80d-ef766ba19679' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
- <video src="https://github.com/DarshanPatel311/Adv_Flutter_Ch1/assets/143177575/ac53555f-cabd-4d65-a048-de030ba4b141" width =300>
-
-   <h2> 📱2.7 Date Picker (Android & iOS) 📱 </h2>
+ <h2> 📱2.7 Date Picker (Android & iOS) 📱 </h2>
 Material Design Date Picker (Android)
 * The Material design date picker is used for Android and follows Google's Material Design guidelines. This is implemented using the `showDatePicker` function in Flutter.
 <p>
- <video src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/9a2cb0ee-2ba5-4ec5-a4f1-0c19931e8ecd'></video>
+ <video src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/cf66a086-645c-43b8-a45b-53ff93a8f80d'></video>
 </p>
 Cupertino Date Picker (iOS)
 * The Cupertino design date picker is used for iOS and follows Apple's Human Interface Guidelines. This is implemented using `CupertinoDatePicker` and displayed using
 <p>
- <video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/5c608b9f-c566-4150-9779-6699dd14716a'></video>
+
+ <video src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/c1385cf9-2332-4815-8c64-7160f6c17d03'></video>
 </p>
 <div align="center">
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_7_date_picker">👉 📱 Go to dart file 📱 👈</a>
 </div>
+<h3>📱 2.8 Sliver Widgets 📱</h3>
+
+
+In Flutter, Sliver Widgets are a set of specialized widgets that allow for highly customizable and efficient scrolling effects. They are particularly useful for creating scrollable areas that can change their appearance or behavior based on the current scroll offset. Slivers are a key component of the `CustomScrollView` widget, which enables the creation of complex scrolling interfaces.
+
+
+*Key Features*
+
+**Flexible and Customizable Scrolling Effects** : Sliver widgets allow for fine-grained control over how content scrolls. This includes dynamic resizing, pinning, floating, and snapping behaviors.
+
+**Efficient Rendering** : Slivers are designed to render efficiently by only building the visible parts of the scrollable content, which improves performance for large lists or complex layouts. 
+
+**Composability** : Multiple sliver widgets can be combined within a CustomScrollView to create intricate scrolling layouts, such as collapsible headers, sticky sections, and grids.
+
+*Common Sliver Widgets*
+* **SliverAppBar** : A scrollable app bar that integrates with other slivers to provide a header that can expand, collapse, or float as you scroll.
+* **SliverList** : A sliver that displays a linear list of children. It is similar to a ListView but optimized for use within a CustomScrollView.
+* **SliverGrid** : A sliver that displays a 2D array of children. It is similar to a GridView but allows for more customization and efficiency within a scrollable context.
+* **SliverFillRemaining**:A sliver that fills the remaining space in the viewport, useful for creating layouts where the remaining area needs to be filled with a specific widget.
+
+
+<p>
+  <img src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/7509d6aa-3fd6-48df-ba95-2161a9a40e1b' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+
+</p>
+
+<div align="center">
+    <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_8_Sliver_Widgets/view">👉 📱 Go to dart file 📱 👈</a>
+</div>
+<video src='https://github.com/DarshanPatel311/Adv_Flutter_Ch2/assets/143177575/3f7e3bad-03c5-423f-ae22-0fcf76ccb55e'></video>
 
 
