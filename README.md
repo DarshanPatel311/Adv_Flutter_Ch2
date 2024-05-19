@@ -198,7 +198,7 @@ Key Features:
     <a href="https://github.com/DarshanPatel311/Adv_Flutter_Ch2/tree/master/lib/2_5_Cupertino_Action_Sheet/view">👉 📱 Go to dart file 📱 👈</a>
 </div>
 
- <h2> 📱2.7 Date Picker (Android & iOS) 📱 </h2>
+<h2> 📱2.7 Date Picker (Android & iOS) 📱 </h2>
 Material Design Date Picker (Android)
 * The Material design date picker is used for Android and follows Google's Material Design guidelines. This is implemented using the `showDatePicker` function in Flutter.
 <p>
