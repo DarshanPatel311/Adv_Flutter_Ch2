@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 class SilverScreen extends StatelessWidget {
@@ -6,34 +8,42 @@ class SilverScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
-
+            backgroundColor: Colors.black,
             expandedHeight: 150,
+            pinned: true,
             flexibleSpace: FlexibleSpaceBar(
-              title: Text("My App Bar"),
-
-              background: Image.network('https://st4.depositphotos.com/13349494/23275/i/450/depositphotos_232751862-stock-photo-dark-blue-shabby-wooden-background.jpg',fit: BoxFit.cover,),
+              title: Text("Sliver AppBar"),
+              background: Image.network(
+                'https://t3.ftcdn.net/jpg/03/04/79/44/360_F_304794459_bbikesRuawv1xGs3XXPj8JLVVNuBxm9O.jpg',
+                fit: BoxFit.cover,
+              ),
             ),
           ),
-      SliverGrid(
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-        ),
-        delegate: SliverChildBuilderDelegate(childCount:10,(context, index) => Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Container(
-            decoration: BoxDecoration(
-                color:Colors.green,
-                borderRadius: BorderRadius.circular(20)
+          SliverList(
+            delegate: SliverChildBuilderDelegate(
+              childCount: 20,
+              (context, index) => Container(
+                margin: EdgeInsets.all(10),
+                height: 200,
+                width: double.infinity,
+                color: rendomcolor(),
+              ),
             ),
-          ),
-        ))),
+          )
         ],
       ),
-
     );
   }
+}
+
+Color rendomcolor() {
+  final Random random = Random();
+  return Color.fromARGB(
+    255, random.nextInt(206), // Red value
+    random.nextInt(26), // Green value
+    random.nextInt(256),
+  );
 }
